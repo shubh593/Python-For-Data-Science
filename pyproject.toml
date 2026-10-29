@@ -1,13 +1,24 @@
 [project]
 name = "python-for-ds"
 version = "0.1.0"
-description = "Add your description here"
+description = "Comprehensive Python for Data Science curriculum, practice notebooks, and datasets covering Python basics, NumPy, Pandas, Seaborn, Matplotlib, and Scikit-Learn."
 readme = "README.md"
 authors = [
     { name = "Shubham", email = "sshinde5930@gmail.com" }
 ]
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "scipy>=1.11.0",
+    "scikit-learn>=1.4.0",
+    "lxml>=5.0.0",
+    "html5lib>=1.1",
+    "beautifulsoup4>=4.12.0",
+    "ipykernel>=6.29.0",
+]
 
 [project.scripts]
 python-for-ds = "python_for_ds:main"
